@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.progressbar {
+  height: 4px;
+  background-color: brown;
+  margin-bottom: 3px;
+  margin-top: 1px;
+  animation-name: load;
+  animation-duration: 2s;
+}
+@keyframes load {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Start Styling */
+
+.container {
+  display: flex;
+}
+.sidebar {
+  width: 264px;
+  background-color: rgb(230, 220, 220);
+  height: 100vh;
+  font-weight: bold;
+  font-family: Arial, Helvetica;
+}
+.sidebar nav {
+  padding: 40px;
+  cursor: pointer;
+}
+.sidebar nav ul li {
+  list-style: none;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  width: 90vw;
+}
+.infoContainer {
+  height: 50vh;
+  width: 75vw;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+.name {
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about {
+  font-size: 25px;
+  padding-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.moreabout {
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin: 40px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.buttons {
+  margin-top: 15px;
+}
+
+.buttons button {
+  background-color: rgb(41, 198, 226);
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+.buttons button a {
+  text-decoration: none;
+  color: white;
+}
+
+.devPic img {
+  height: 50vh;
+  margin-right: 20px;
+}
+.hamBurger {
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+ 
+.cross {
+  margin-left: 157px;
+}
+
+/* Responsive websites */
+@media (max-width: 800px) {
+  .sidebar {
+    transform: translate(-443px, 0px);
+    position: absolute; 
+   } 
+  .devPic img {
+    height: 20vh;
+  }
+  .hello {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 23px;
+  }
+  .about {
+    font-size: 18px;
+  }
+  .moreabout {
+    font-size: 16px;
+  }
+}
