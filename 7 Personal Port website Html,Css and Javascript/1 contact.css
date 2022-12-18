@@ -1,0 +1,33 @@
+.contactForm {
+  padding: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactForm h1 {
+  margin-left: -350px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.mb-3 {
+  margin-bottom: 20px;
+}
+.form-text {
+  margin: 6px;
+  font-size: 15px;
+  color: rgb(166, 125, 125);
+}
+label {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+.btnSubmit {
+  background-color: rgb(103, 201, 240);
+  color: white;
+  font-size: large;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}

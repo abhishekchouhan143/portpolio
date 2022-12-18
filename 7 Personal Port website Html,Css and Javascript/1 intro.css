@@ -1,0 +1,55 @@
+.main-Content h2 {
+  font-weight: bold;
+  margin: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-Content p {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.skillContainer {
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skillItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.skill {
+  height: 8px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.hundred {
+
+  width: 265px;
+  height: 8px;
+  background-color: red;
+}
+.fifty {
+  width: 200px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: green;
+}
+.ts {
+  width: 125px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: yellow;
+}
+.project{
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+
+}
+.project h1{
+  padding-bottom: 9px;
+}
+.project ol li{
+  padding: 6px;
+}
